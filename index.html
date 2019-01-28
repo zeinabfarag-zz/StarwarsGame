@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars RPG Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body background="assets/images/background-starwars.jpg">
+    <section id="reset" class="container">
+        <section class="row">
+            <h1>Star Wars RPG!</h1>
+        </section>
+        <section id="character" class="row">
+            <section class="row">
+                <h2 class="col-12">Your Character</h2>
+
+                <section id="luke-skywalker" class="character card text-center" style="width: 18rem;">
+                    <section class="card-header">Luke Skywalker</section>
+                    <img src="assets/images/luke-skywalker.jpg" class="card-img-top"></img>
+                    <section class="card-body">
+                        <p id="luke-skywalker-hp" class="card-text">HP: 135</p>
+                    </section>
+                </section>
+
+                <section id="darth-maul" class="character card text-center" style="width: 18rem;">
+                    <section class="card-header">Darth Maul</section>
+                    <img src="assets/images/darth-maul.jpeg" class="card-img-top"></img>
+                    <section class="card-body">
+                        <p id="darth-maul-hp" class="card-text">HP: 180</p>
+                    </section>
+                </section>
+
+                <section id="obiwan-kenobi" class="character card text-center" style="width: 18rem;">
+                    <section class="card-header">Obi-Wan Kenobi</section>
+                    <img src="assets/images/obi-wan-kenobi.jpeg" class="card-img-top"></img>
+                    <section class="card-body">
+                        <p id="obiwan-kenobi-hp" class="card-text">HP: 145</p>
+                    </section>
+                </section>
+
+                <section id="darth-sidious" class="character card text-center" style="width: 18rem;">
+                    <section class="card-header">Darth Sidious</section>
+                    <img src="assets/images/darth-sidious.jpg" class="card-img-top"></img>
+                    <section class="card-body">
+                        <p id="darth-sidious-hp" class="card-text">HP: 150</p>
+                    </section>
+                </section>
+
+            </section>
+        </section>
+        <section id="enemies" class="row">
+            <h2 class="col-12">Enemies available to attack</h2>
+        </section>
+        <section id="fight" class="row">
+            <h2 class="col-12">Fight Section</h2>
+            <button id="fighting" class="col-2">Attack</button>
+        </section>
+        <section id="defender" class="row">
+            <h2 class="col-12">Defender</h2>
+        </section>
+        <section id="status" class="row">
+
+        </section>
+        <section id="reset-section" class="row">
+            <button id="reset-button" class="col-2">Reset</button>
+        </section>
+    </section>
+</body>
+
+</html>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
