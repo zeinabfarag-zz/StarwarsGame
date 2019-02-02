@@ -10,4 +10,4 @@ This is a simple Role Playing Game where you select a Star Wars character and ba
 
 ## Website
 
-https://github.com/zeinabfarag/StarWarsGame
+https://github.io/zeinabfarag/StarWarsGame
